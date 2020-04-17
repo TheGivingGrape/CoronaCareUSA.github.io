@@ -1,0 +1,51 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+@font-face {
+  font-family: 'Gilroy-ExtraBold';
+  src: url('webFonts/Gilroy-ExtraBold/font.woff2') format('woff2'), url('webFonts/Gilroy-ExtraBold/font.woff') format('woff');
+}
+
+.content {
+	display: grid;
+}
+
+.banner {
+	width: 100%;
+	top:0;
+	left:0;
+}
+
+.strip {
+	width: 100%;
+	height: 15px;
+	background-color: #328ab5;
+	margin-top: -5px;
+}
+
+.form {
+	text-align: center;
+}
+
+.text {
+  text-align: center;
+  height: 250px;
+}
+
+h1, h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+}
+
+.mission {
+  margin-top: 30px;
+  width: 80%;
+  display: inline-block;
+  font-weight: bold;
+}
+
+p {
+  width: 65%;
+  margin-top: -10px;
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+}
