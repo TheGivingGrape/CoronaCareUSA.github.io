@@ -5,6 +5,10 @@
   src: url('webFonts/Gilroy-ExtraBold/font.woff2') format('woff2'), url('webFonts/Gilroy-ExtraBold/font.woff') format('woff');
 }
 
+body {
+	margin: 0;
+}
+
 .content {
 	display: grid;
 }
@@ -17,7 +21,7 @@
 
 .strip {
 	width: 100%;
-	height: 18px;
+	height: 15px;
 	background-color: #328ab5;
 	margin-top: -5px;
 }
