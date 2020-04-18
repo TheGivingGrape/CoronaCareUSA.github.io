@@ -5,6 +5,10 @@
   src: url('webFonts/Gilroy-ExtraBold/font.woff2') format('woff2'), url('webFonts/Gilroy-ExtraBold/font.woff') format('woff');
 }
 
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .content {
 	display: grid;
 }
