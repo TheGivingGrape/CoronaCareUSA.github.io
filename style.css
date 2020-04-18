@@ -6,7 +6,11 @@
 }
 
 body {
+<<<<<<< HEAD
   font-family: 'Open Sans', sans-serif;
+=======
+	margin: 0;
+>>>>>>> 82772830a18ec6de25a71b0dfb4ba59d57de4994
 }
 
 .content {
@@ -21,7 +25,7 @@ body {
 
 .strip {
 	width: 100%;
-	height: 18px;
+	height: 15px;
 	background-color: #328ab5;
 	margin-top: -5px;
 }
