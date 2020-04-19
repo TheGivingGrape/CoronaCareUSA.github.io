@@ -6,17 +6,18 @@
 }
 
 body {
-	margin: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .content {
-	display: grid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .banner {
 	width: 100%;
-	top:0;
-	left:0;
 }
 
 .strip {
@@ -27,19 +28,31 @@ body {
 }
 
 .form {
-	text-align: center;
+  text-align: center;
+  width: 80%;
+  height: 1300px;
 }
 
 .text {
+  width: 65%;
   text-align: center;
   height: auto;
-  margin-top: 40px;
-  font-family: 'Open Sans', sans-serif;
+  margin-top: 30px;
+  max-width: 500px;
 }
 
 h1, h2 {
-  font-family: 'Open Sans', sans-serif;
   font-weight: 800;
+}
+
+h1 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
 }
 
 .mission {
@@ -50,9 +63,31 @@ h1, h2 {
 }
 
 p {
-  width: 65%;
-  margin-top: -10px;
+  margin-bottom: 15px;
   display: inline-block;
-  font-family: 'Open Sans', sans-serif;
   line-height: normal;
+}
+
+@media (max-width: 500px) {
+  p {
+    font-size: 14px;
+  }
+
+  h1{
+    font-size: 17px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  .text {
+    margin-top: 15px;
+    width: 90%;
+    text-align: left;
+  }
+
+  .form {
+    width: 100%;
+  }
 }
