@@ -32,7 +32,9 @@ body {
 
 .text {
   text-align: center;
-  height: 250px;
+  height: auto;
+  margin-top: 40px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1, h2 {
@@ -52,4 +54,5 @@ p {
   margin-top: -10px;
   display: inline-block;
   font-family: 'Open Sans', sans-serif;
+  line-height: normal;
 }
