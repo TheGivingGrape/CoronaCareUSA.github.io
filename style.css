@@ -34,6 +34,7 @@ body {
   text-align: center;
   height: auto;
   margin-top: 40px;
+  margin-left: 200px;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -41,6 +42,10 @@ h1 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
   padding-bottom: 30px;
+}
+
+strong {
+  font-weight: bold;
 }
 
 .mission {
