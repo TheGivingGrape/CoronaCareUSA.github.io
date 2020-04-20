@@ -31,7 +31,7 @@ body {
 }
 
 .text {
-  text-align: left;
+  text-align: center;
   height: auto;
   margin-top: 40px;
   font-family: 'Open Sans', sans-serif;
@@ -52,6 +52,7 @@ h1 {
 
 p {
   width: 65%;
+  text-align: left;
   display: inline-block;
   line-height: normal;
 }
