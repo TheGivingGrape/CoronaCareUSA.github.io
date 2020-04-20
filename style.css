@@ -30,6 +30,10 @@ body {
 	text-align: center;
 }
 
+.heading {
+  font-size: 20px;
+}
+
 .text {
   text-align: center;
   height: auto;
