@@ -9,10 +9,6 @@ body {
 	margin: 0;
 }
 
-.content {
-	display: grid;
-}
-
 .banner {
 	width: 100%;
 	top:0;
@@ -26,42 +22,30 @@ body {
 	margin-top: -5px;
 }
 
-.form {
-	text-align: center;
-}
-
-.heading {
-  font-size: 20px;
-}
-
 .text {
-  text-align: center;
-  height: auto;
-  margin-top: 40px;
-  margin-left: 155px;
-  font-family: 'Open Sans', sans-serif;
-}
-
-h1 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 800;
-  padding-bottom: 30px;
+	margin-left: 40px;
+	margin-top: 40px;
+	text-align: center;
+	font-family: 'Open Sans', san-serif;
 }
 
 strong {
   font-weight: bolder;
+  line-height: 30px;
 }
 
-.mission {
-  margin-top: 30px;
-  width: 80%;
-  display: inline-block;
-  font-weight: bold;
+.heading {
+	font-size: 20px;
+	line-height: 40px;
 }
 
 p {
-  width: 65%;
   text-align: left;
   display: inline-block;
   line-height: normal;
+  font-size: 15px;
+}
+
+.form {
+  text-align: center;
 }
